@@ -1,0 +1,18 @@
+body {
+  background-image: url("istockphoto-667759896-612x612.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.holay {
+  margin-top: 100px;
+  margin-left: 750px;
+  width: 400px;
+}
+
+.Welcome {
+  font-size: 80px;
+  font-family: honk;
+  text-align: center;
+}

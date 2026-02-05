@@ -1,0 +1,66 @@
+.buttons {
+  display: inline-block;
+  margin-left: 850px;
+}
+
+.valentine {
+  margin-left: 150px;
+  font-family: "SN pro", sans-serif;
+}
+
+.btn1 {
+  display: inline-block;
+}
+
+.btn2 {
+  display: inline-block;
+}
+
+.btn3 {
+  display: inline-block;
+}
+
+.btn4 {
+  display: inline-block;
+}
+
+.perchance {
+  width: 400px;
+  margin-left: 170px;
+}
+.perchancediv {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* margin-left: 760px;
+  margin-top: 100px; */
+}
+
+.yes {
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(7, 222, 21);
+}
+
+.no {
+  background-color: rgb(255, 73, 73);
+  border: none;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.no:hover {
+  cursor: pointer;
+}
+
+.yes:hover {
+  cursor: pointer;
+}
+
+.maybe {
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+}

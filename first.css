@@ -1,0 +1,37 @@
+.first-text {
+  margin-top: 100px;
+  margin-left: 450px;
+  color: white;
+  display: inline-block;
+  font-family: "SN pro", sans-serif;
+}
+
+body {
+  background-color: darkred;
+}
+
+img {
+  margin-top: 200px;
+
+  height: 100px;
+}
+img:hover {
+  transform: scale(3.5);
+}
+
+.img1 {
+  margin-left: 190px;
+}
+
+.forward {
+  margin-left: 850px;
+  display: inline-block;
+}
+
+.shayshimages {
+  display: inline-block;
+}
+
+.test {
+  display: inline-block;
+}

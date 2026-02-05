@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valentines</title>
+    <link rel="icon" type="image/x-icon" href="sillyicon.jpeg" />
+    <link type="text/css" rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="perchancediv">
+      <div style="background-color: white"></div>
+      <div class="perchancediv1">
+        <img
+          class="perchance"
+          src="6040c24659d12a31df1a3ffe2b1f79fb.jpg"
+          alt=""
+        />
+        <h2 class="valentine">Would you perchance be my valentine?</h2>
+      </div>
+      <div style="background-color: white"></div>
+    </div>
+
+    <div style="background-color: white"></div>
+    <div class="buttons" id="buttonsid">
+      <div class="btn1">
+        <button style="font-size: 20px" id="yes" class="yes">Yes</button>
+      </div>
+      <div class="btn2">
+        <button style="font-size: 20px" id="no" class="no">Nahhh</button>
+      </div>
+      <div class="btn3">
+        <button style="font-size: 20px" class="maybe" id="maybe">
+          Like maybe idk
+        </button>
+      </div>
+    </div>
+    <a id="badend" href="badend.html"></a>
+    <script>
+      const actions = [
+        nobtn,
+        nobtn40,
+        nobtn50,
+        nobtn60,
+        nobtn70,
+        nobtn80,
+        nobtn90,
+        nobtn100,
+      ];
+
+      const actions1 = [
+        omg,
+        fr,
+        shit,
+        pause,
+        yes2,
+        yes3,
+        yes4,
+        yes5,
+        yes6,
+        yes7,
+        yes8,
+      ];
+      const noButton = document.getElementById("no");
+      const maybeButton = document.getElementById("maybe");
+      const yesButton = document.getElementById("yes");
+      yesButton.addEventListener("click", yestrigger);
+      noButton.addEventListener("click", test);
+      let clickCount = 0;
+      let yesclick = 0;
+      maybeButton.addEventListener("click", maybe);
+      function test() {
+        if (clickCount >= actions.length) {
+          clickCounts = 0;
+        }
+        actions[clickCount]();
+        clickCount++;
+      }
+
+      function yestrigger() {
+        if (yesclick >= actions1.length) {
+          yesclicks = 0;
+        }
+        actions1[yesclick]();
+        yesclick++;
+      }
+
+      function omg() {
+        document.getElementById("yes").innerHTML = "omg";
+        document.getElementById("buttonsid").style.marginLeft = "850px";
+      }
+      function fr() {
+        document.getElementById("yes").innerHTML = "fr?";
+        document.getElementById("buttonsid").style.marginLeft = "850px";
+      }
+      function shit() {
+        document.getElementById("yes").innerHTML = "shit ok omg";
+        document.getElementById("buttonsid").style.marginLeft = "800px";
+      }
+      function pause() {
+        document.getElementById("yes").innerHTML = "ok wait gimmie a sec";
+        document.getElementById("buttonsid").style.marginLeft = "750px";
+      }
+      function yes2() {
+        document.getElementById("yes").innerHTML =
+          "kinda planned for the worst case lol";
+        document.getElementById("buttonsid").style.marginLeft = "700px";
+      }
+      function yes3() {
+        document.getElementById("yes").innerHTML =
+          "just need a sec to get everything ready sorry";
+        document.getElementById("buttonsid").style.marginLeft = "670px";
+      }
+      function yes4() {
+        document.getElementById("yes").innerHTML = "this is really embarrasing";
+        document.getElementById("buttonsid").style.marginLeft = "740px";
+      }
+      function yes5() {
+        document.getElementById("yes").innerHTML = "ok were good now I think";
+        document.getElementById("buttonsid").style.marginLeft = "740px";
+      }
+      function yes6() {
+        document.getElementById("yes").innerHTML =
+          "alr just click the next button, thats the one";
+        document.getElementById("buttonsid").style.marginLeft = "670px";
+      }
+      function yes7() {
+        document.getElementById("yes").innerHTML = "yes :3";
+        document.getElementById("buttonsid").style.marginLeft = "840px";
+      }
+      function yes8() {
+        window.location.replace("end.html");
+      }
+      function maybe() {
+        document.getElementById("maybe").innerHTML = "wrong answer :/";
+        document.getElementById("maybe").style.backgroundColor = "red";
+        document.getElementById("maybe").style.border = "none";
+        document.getElementById("maybe").style.color = "white";
+      }
+      function nobtn() {
+        document.getElementById("yes").style.fontSize = "30px";
+        document.getElementById("buttonsid").style.marginLeft = "840px";
+        document.getElementById("no").innerHTML = "really?";
+      }
+      function nobtn40() {
+        document.getElementById("yes").style.fontSize = "40px";
+        document.getElementById("buttonsid").style.marginLeft = "570px";
+        document.getElementById("no").innerHTML = "you sure?";
+        document.getElementById("yes").innerHTML = "you should click this one";
+      }
+      function nobtn50() {
+        document.getElementById("yes").style.fontSize = "50px";
+        document.getElementById("buttonsid").style.marginLeft = "770px";
+        document.getElementById("no").innerHTML = "absolutely positive?";
+        document.getElementById("yes").innerHTML = "please";
+      }
+
+      function nobtn60() {
+        document.getElementById("yes").style.fontSize = "60px";
+        document.getElementById("buttonsid").style.marginLeft = "650px";
+        document.getElementById("no").innerHTML = "no but like fr tho :(";
+        document.getElementById("yes").innerHTML = "pretty please?";
+      }
+      function nobtn70() {
+        document.getElementById("yes").style.fontSize = "70px";
+        document.getElementById("buttonsid").style.marginLeft = "830px";
+        document.getElementById("no").innerHTML = "no but like fr tho :(";
+        document.getElementById("yes").innerHTML = ":(";
+      }
+      function nobtn80() {
+        document.getElementById("yes").style.fontSize = "80px";
+        document.getElementById("buttonsid").style.marginLeft = "770px";
+        document.getElementById("no").innerHTML = "shucks";
+        document.getElementById("yes").innerHTML = "finee";
+      }
+      function nobtn90() {
+        document.getElementById("yes").style.fontSize = "90px";
+        document.getElementById("buttonsid").style.marginLeft = "770px";
+        document.getElementById("no").innerHTML = "last chance fr &#128532;";
+        document.getElementById("yes").innerHTML = "&#129402;";
+      }
+      function nobtn100() {
+        window.location.replace("badend.html");
+      }
+    </script>
+  </body>
+</html>
