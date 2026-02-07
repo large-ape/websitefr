@@ -1,0 +1,36 @@
+body {
+  background-image: url("200.gif");
+  background-repeat: no-repeat;
+  background-size: 100% 115%;
+  background-attachment: fixed;
+}
+
+.SWAG {
+  display: block;
+  margin: auto;
+  margin-top: 70px;
+  width: 500px;
+  height: 100px;
+}
+
+.yippee {
+  margin-left: 750px;
+}
+
+.backbtn {
+  font-size: 15px;
+  color: white;
+  background-color: grey;
+  border-radius: 15px;
+  display: block;
+  margin-left: 790px;
+  margin-top: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.backbtn:hover {
+  cursor: pointer;
+}
