@@ -1,10 +1,10 @@
 .buttons {
-  display: inline-block;
-  margin-left: 850px;
+  display: flex;
+  justify-content: center;
+  column-gap: 5px;
 }
 
 .valentine {
-  margin-left: 150px;
   font-family: "SN pro", sans-serif;
 }
 
@@ -26,11 +26,11 @@
 
 .perchance {
   width: 400px;
-  margin-left: 170px;
 }
 .perchancediv {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  justify-content: center;
+
   /* margin-left: 760px;
   margin-top: 100px; */
 }

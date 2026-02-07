@@ -1,6 +1,6 @@
 .first-text {
   margin-top: 100px;
-  margin-left: 450px;
+
   color: white;
   display: inline-block;
   font-family: "SN pro", sans-serif;
@@ -19,19 +19,18 @@ img:hover {
   transform: scale(3.5);
 }
 
-.img1 {
-  margin-left: 190px;
-}
-
-.forward {
-  margin-left: 850px;
-  display: inline-block;
-}
-
 .shayshimages {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  column-gap: 5px;
 }
 
 .test {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+}
+
+.buttondiv {
+  display: flex;
+  justify-content: center;
 }
